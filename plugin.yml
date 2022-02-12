@@ -1,0 +1,14 @@
+name: RulesUI-PM4
+author: AokoAsami199
+main: AokoAsami199\RulesUI
+version: 1.0
+api: [4.0.0]
+commands:
+  rules:
+    description: "RulesUI"
+    permission: rules.cmd
+
+permissions:
+  rules.cmd:
+    description: "Rules"
+    default: true
